@@ -10,7 +10,15 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-
+.input-boxes{
+    box-shadow: 5px 5px 5px 5px #E5DFFF;
+}
+.input-boxes input:focus{
+    outline: none;
+}
+.input-boxes {
+    transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+}
 @keyframes fadeInUp {
     from {
         opacity: 0;

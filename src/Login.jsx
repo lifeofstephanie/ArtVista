@@ -47,7 +47,7 @@ const Login = () => {
               >
                 Email
               </label>
-              <div className="flex border border-[#A4A9B28C] rounded-[8px] py-[10px] px-[14px]">
+              <div className="flex border border-[#A4A9B28C] rounded-[8px] py-[10px] px-[14px] input-boxes">
                 <input
                   type="email"
                   name=""
@@ -74,7 +74,7 @@ const Login = () => {
               >
                 Password
               </label>
-              <div className="flex border border-[#A4A9B28C] rounded-[8px] py-[10px] px-[14px]">
+              <div className="flex border border-[#A4A9B28C] rounded-[8px] py-[10px] px-[14px] input-boxes">
                 <input
                   type={viewPassword ? "text" : "password"}
                   name=""
@@ -102,7 +102,7 @@ const Login = () => {
           <div className="flex flex-col gap-4 mb-5">
             <button
               type="submit"
-              className="w-full h-11 border bg-[#5429FF] rounded-[8px] text-base font-medium text-white hover:bg-white hover:border-[#5429FF] hover:text-[#5429FF] duration-200 hover:scale-[1.05] hover:drop-shadow-lg"
+              className="w-full h-11 border bg-[#5429FF] rounded-[8px] text-base font-medium text-white hover:bg-white hover:border-[#5429FF] hover:text-[#5429FF]"
             >
               Sign In
             </button>
