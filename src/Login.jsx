@@ -87,9 +87,7 @@ const Login = () => {
                   src={eyeSlash}
                   alt=""
                   onClick={() => setViewPassword((prev) => !prev)}
-                  className={`cursor-pointer transition-transform duration-200 ${
-                    viewPassword ? "rotate-180" : "rotate-0"
-                  }`}
+                  className={`cursor-pointer`}
                 />
               </div>
             </div>
